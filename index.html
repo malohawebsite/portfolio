@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- フォント -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter&family=Kosugi+Maru&display=swap" rel="stylesheet">
+    <!-- slickの読み込み -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <title>Portforio</title>
+  </head>
+
+  <body>
+    <!-- 
+    <nav class="side-menu">
+      
+    </nav> -->
+    <header>
+    <div class="wrapper">
+      <h1><a href="#">Maloha Website</a></h1>
+      <nav>
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#prices">Prices</a></li>
+          <li><a href="#workflow">WorkFlow</a></li>
+          <li><a href="#aboutme">About Me</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>   
+
+
+<!-- スマホ用　**************************************** -->
+
+      <img id="menu-sp" src="img/menu-img.png" alt="ナビゲーションを開く" onclick="document.getElementById('nav-sp').style.display = 'block'" >
+    
+<!-- スマホ用　**************************************** -->
+
+      <nav id="nav-sp">
+        <img id="close" src="img/close-img.png" alt="ナビゲーションを閉じる" onclick="document.getElementById('nav-sp').style.display = 'none'">
+        <a id="logo-sp" href="index.html" onclick="document.getElementById('nav-sp').style.display = 'none'"><img
+        class="logo-smh"  src="img/logo_skelton.png" alt="トップページに戻る"></a>
+        <a class="menu" href="#services" onclick="document.getElementById('nav-sp').style.display = 'none'">Services</a>
+        <a class="menu" href="#prices" onclick="document.getElementById('nav-sp').style.display = 'none'">Prices</a>
+        <a class="menu" href="#workflow" onclick="document.getElementById('nav-sp').style.display = 'none'">WorkFlow</a>
+        <a class="menu" href="#aboutme" onclick="document.getElementById('nav-sp').style.display = 'none'">About Me</a>
+        <a class="menu" href="#contact" onclick="document.getElementById('nav-sp').style.display = 'none'">Contact</a>
+      </nav>
+  </header>
+    <section class="fv">
+      <img src="img/header_bgi.png" alt="海の画像" />
+    </section>
+
+    <section class="container" id="concept">
+        <div class="wrapper">
+      <h2><span>C</span>ONCEPT</h2>
+      <div class="message1">
+        <h3>「ひとつひとつのご縁を大切に。」</h3>
+        <h4>常に心がけ、お約束いたします。</h4>
+      </div>
+
+      <div class="icon">
+        <div class="img">
+          <h3>ていねい</h3>
+          <p>
+            ご依頼～納品まで、<br />
+            満足いただけるように、<br />
+            制作時は細部までこだわります。
+          </p>
+        </div>
+        <div class="img">
+          <h3>すばやい</h3>
+          <p>
+            お問い合わせには<br />
+            12時間以内に返信いたします。
+          </p>
+        </div>
+        <div class="img">
+          <h3>あんしん</h3>
+          <p>
+            納品後の修正にも対応いたします。<br />
+            気になる点が出てきましたら、<br />
+            いつでもお申し付けください
+          </p>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <section class="container" id="services">
+        <div class="wrapper">
+      <h2><span>S</span>ERVICES</h2>
+      <div class="design">
+        <img class="title" src="img/services-design.png" />
+        <div class="icon">
+        <div class="icon1">
+          <img src="img/services-palm.png" />
+          <p>ロゴ制作</p>
+        </div>
+        <div class="icon2">
+          <img src="img/services-pc.png" />
+          <p>Web制作</p>
+        </div>
+        <div class="icon3">
+          <img src="img/services-phone.png" />
+          <p>バナー制作</p>
+        </div>
+
+        </div>
+        <h3 class="pc">
+          ホームページ制作に関わるすべてのデザインをお任せください。<br />
+          ポートフォリオは私の大好きな海にまつわるものばかりですが、<br />
+          シンプル・ガーリーetc…コンセプトに合わせて作成いたします。<br />
+          FigmaやCanvaを用いて作業を行っております。
+        </h3>
+
+        <!-- スマホ用　**************************************** -->
+        <h3 class="smh">
+          ホームページ制作に関わるすべての<br>
+          デザインをお任せください。<br />
+          ポートフォリオは私の大好きな海に<br>
+          まつわるものばかりですが、<br />
+          シンプル・ガーリーetc…<br>
+          コンセプトに合わせて作成いたします。<br />
+          FigmaやCanvaを用いて<br>
+          作業を行っております。
+        </h3>
+        <!-- ************************************************** -->
+
+      </div>
+
+      <div class="coding">
+        <img class="title" src="img/services-coading.png" />
+        <div class="icon">
+          <div class="icon4">  
+          <img src="img/services-palm.png" />
+          <p>LP制作</p>
+        </div>
+ 
+        <div class="icon5"> 
+          <img src="img/services-pc.png" />
+          <p>Web制作</p>
+          </div>
+
+          <div class="icon6"> 
+          <img src="img/services-phone.png" />
+          <p>レスポンシブ対応</p>
+        </div>
+        </div>
+        <h3 class="pc">
+          デザインからコーディングまで一貫して行うことで、<br />
+          統一感のあるホームページを作成いたします。<br />
+          もちろん、レスポンシブ対応も承ります。<br />
+          HTML/CSSを用いて作業を行っております。
+        </h3>
+
+        <!-- スマホ用　**************************************** -->
+        <h3 class="smh">
+          デザインからコーディングまで<br>
+          一貫して行うことで、<br />
+          統一感のあるホームページを<br>
+          作成いたします。<br />
+          もちろん、レスポンシブ対応も承ります。<br />
+          HTML/CSSを用いて<br>
+          作業を行っております。
+        </h3>
+        <!-- ************************************************** -->
+
+      </div>
+
+      <div class="skill">
+        <img class="title" src="img/services-skill.png" />
+          
+          <div class="skill-logo">
+            <div class="figma-box">
+            <p>Figma</p>
+          <img class="figma" src="img/figma.svg" />
+        </div>
+          <img class="html" src="img/html-5.svg" />
+          <img class="css" src="img/css-3.svg" />
+          <img class="jquery" src="img/jquery.svg" />
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <section class="container" id="message">
+        <div class="wrapper">
+        <h2><span>M</span>ESSAGE</h2>
+
+        <div id="message-pc">
+        <div class="to-designer">
+                <img src="img/message-designer.png">
+            <div class="text-right">
+                <h3>デザイナー 様</h3>
+                <h4>コーダーをお探しではありませんか？<br>
+                  「デザインは固まっているけどコーディングは・・・」<br>
+                  という方、私にお任せください。<br>
+                  素敵なデザインどおりのコーディングで完成させることを<br>お約束いたします。</h4>
+            </div>
+        </div>
+  
+        <div class="to-coader">
+            <div class="text-left">
+                <h3>コーダー 様</h3>
+                <h4>デザイナーをお探しではありませんか？<br>
+                  「実績数をあげたいけれど、デザインは面倒、お任せしたい」<br>
+                  という方、私にお任せください。<br>
+                  思わずアクセスしたくなるデザインを時間をかけず、<br>
+                  ご提供いたします。</h4>
+            </div>
+                <img src="img/message-coader.png">
+        </div>
+
+        <div class="to-webpd">
+                <img src="img/message-webpd.png">
+            <div class="text-right">
+                <h3>Web制作会社 様</h3>
+                <h4>デザインからコーディング・アップロードまでできる、<br>
+                そんな人材をお探しではありませんか？<br>
+                どちらかをお探しでも構いません。<br>
+                丁寧で素早く対応いたします。</h4>
+            </div>
+        </div>
+        </div>
+
+        <!-- スマホ用　************************************************************************* -->
+        <div id="message-smh">
+        <div class="to-designer">
+            <img src="img/message-designer.png">
+            <div class="text-right">
+                <h3>デザイナー 様</h3>
+                <h4>コーダーをお探しではありませんか？<br>
+                「デザインは固まっているけど<br>
+                コーディングは・・・」<br>
+                という方、私にお任せください。<br>
+                素敵なデザインどおりのコーディングで<br>
+                完成させることをお約束いたします。</h4>
+            </div>
+        </div>
+  
+        <div class="to-coader">
+              <img src="img/message-coader.png">
+              <div class="text-left">
+              <h3>コーダー 様</h3>
+                <h4>デザイナーをお探しではありませんか？<br>
+                  「実績数をあげたいけれど、<br>
+                  デザインは面倒、お任せしたい」<br>
+                  という方、私にお任せください。<br>
+                  思わずアクセスしたくなるデザインを<br>
+                  時間をかけず、ご提供いたします。</h4>
+            </div>
+        </div>
+
+        <div class="to-webpd">
+                <img src="img/message-webpd.png">
+            <div class="text-right">
+                <h3>Web制作会社 様</h3>
+                <h4>「デザインからコーディング、<br>
+                  アップロードまでできる」<br>
+                  そんな人材をお探しではありませんか？<br>
+                  どちらかをお探しでも構いません。<br>
+                  丁寧に素早く対応いたします。</h4>
+            </div>
+        </div>
+      </div>
+      <!-- ************************************************** -->
+
+    </div>
+        </section>
+
+        <section class="container" id="prices">
+            <div class="wrapper">
+            <h2><span>P</span>RICES</h2>
+
+            <div class="prices-frame">
+                <h3 class="text" ><span>●</span>HTML/CSS修正</h3>
+                <h3 class="number" >¥3,000～</h3>
+            </div>
+
+            <div class="prices-frame">
+                <h3 class="text" ><span>●</span>HTML/CSSコーディング</h3>
+                <h3 class="number" >¥5,000～</h3>
+            </div>
+
+            <div class="prices-frame">
+                <h3 class="text" ><span>●</span>LPサイト制作</h3>
+                <h3 class="number" >¥10,000～</h3>
+            </div>
+
+            <div class="prices-frame">
+                <h3 class="text" ><span>●</span>HPサイト制作</h3>
+                <h3 class="number" >¥60,000～</h3>
+            </div>
+
+            <div class="option-title">
+                <img src="img/f1159_0.svg">
+            </div>
+
+            <div class="option-frame">
+                <h3 class="text" ><span>●</span>レスポンシブ対応</h3>
+                <h3 class="number" >¥5,000～</h3>
+            </div>
+
+            <div class="option-frame">
+                <h3 class="text" ><span>●</span>お問い合わせ実装</h3>
+                <h3 class="number" >¥5,000～</h3>
+            </div>
+
+            <div class="option-frame">
+                <h3 class="text" ><span>●</span>下層ページ追加</h3>
+                <h3 class="number" >¥10,000～</h3>
+            </div>
+        </div>
+      </section>
+
+      <section class="container" id="workflow">
+        <div class="wrapper">
+            <h2><span>W</span>ORK FLOW</h2>
+            <div  class="pc">
+            <div class="icon-top">
+             <div class="contents">
+                <h3>依頼<br>・<br>相談</h3>
+             </div>
+
+             <div class="triangle"></div>
+
+             <div class="contents">
+                <h3>ヒアリング<br>・<br>デザイン</h3>
+             </div>
+
+             <div class="triangle"></div>
+
+             <div class="contents">
+                <h3 class="gyo1">コーディング</h3>
+             </div>
+            </div>
+
+            
+            <div class="icon-bottom">
+            <div class="contents">
+                <h3 class="gyo2">テストサイト<br>公開</h3>
+            </div>
+
+            <div class="triangle"></div>
+
+            <div class="contents">
+                <h3 class="gyo1">修正</h3>
+            </div>
+
+            <div class="triangle"></div>
+
+            <div class="contents">
+                <h3 class="gyo1">納品</h3>
+            </div>
+            </div>
+            </div>
+
+<!-- スマホ用　************************************************************************* -->
+            <div  class="smh">
+               <div class="contents">
+                  <h3>依頼<br>・<br>相談</h3>
+               </div>
+  
+               <div class="triangle"></div>
+  
+               <div class="contents">
+                  <h3>ヒアリング<br>・<br>デザイン</h3>
+               </div>
+    
+               <div class="contents">
+                  <h3 class="gyo1">コーディング</h3>
+               </div>
+  
+               <div class="triangle"></div>
+
+              <div class="contents">
+                  <h3 class="gyo2">テストサイト<br>公開</h3>
+              </div>
+ 
+              <div class="contents">
+                  <h3 class="gyo1">修正</h3>
+              </div>
+  
+              <div class="triangle"></div>
+  
+              <div class="contents">
+                  <h3 class="gyo1">納品</h3>
+              </div>
+              </div>
+<!-- ******************************************************************************** -->
+
+          </div>
+        </section>
+
+        <section class="contact-button1">
+                <h3>HP作成はお気軽にご相談ください<img src="img/hibiscuss.png"> </h3>
+                <h4><a href="https://forms.gle/gSXjQNhboSzRumrJ7">CONTACT</a></h4>
+        </section>
+
+        <section class="container" id="aboutme">
+            <div class="wrapper">
+                <h2><span>A</span>BOUT ME</h2>
+                <div class="contents">
+                <img src="img/maloha.png">
+                <h3>まろは［Maloha］</h3>
+
+                <h4 class="pc">ポートフォリオをご覧いただき、ありがとうございます。<br>
+                    ハワイが大好きな<span>「まろは［Maloha］」</span>と申します。<br>
+                    普段はオフィスで事務員として働きながら、<br>
+                    副業でWeb制作を行っております。</h4>
+                <h5 class="pc">● 趣　　　　味：　旅行 / 散歩 / 釣り / スノボ / シュノーケル<br>
+                    ● 好きな飲み物：　レモンサワー<br>
+                    ● 好きな食べ物：　焼き鳥　/　枝豆　/　お寿司</h5>
+
+<!-- スマホ用　************************************************************************* -->
+                <div class="text-box">
+                <h4 class="smh">ポートフォリオをご覧いただき、<br>ありがとうございます。<br>
+                    ハワイが大好きな<span>「まろは［Maloha］」</span>と<br>申します。<br>
+                    普段はオフィスで事務員として働きながら、<br>
+                    副業でWeb制作を行っております。</h4>
+                <h5 class="smh">● 趣　味：　旅行 / 散歩 / 釣り / スノボ / シュノーケル<br>
+                    ● 好きな飲み物：　レモンサワー<br>
+                    ● 好きな食べ物：　焼き鳥　/　枝豆　/　お寿司</h5>
+                  </div>
+<!-- ******************************************************************************** -->
+                </div>
+            </div>
+        </section>
+
+        <section class="container" id="history">
+            <div class="wrapper">
+                <h2><span>H</span>ISTORY</h2>
+                <div class="contents">
+                    <h3 class="seireki">1994</h3>
+                    <h3 class="text">東京都で生まれる</h3>
+                </div>
+            
+                <div class="contents">
+                    <h3 class="seireki">2017</h3>
+                    <h3 class="text">日本大学商学部を卒業し、旅行会社へ就職。</h3>
+                </div>
+
+                <div class="contents">
+                    <h3 class="seireki">2020</h3>
+                    <h3 class="text">コロナ流行直前に、転職。<br>
+                        メーカーに事務職として就職。</h3>
+                </div>
+
+                <div class="contents">
+                    <h3 class="seireki">2023</h3>
+                    <h3 class="text">Web制作に興味を持ち、スクール（Samurai）に通う。<br>
+                        HPをデザイン段階から一貫して制作するためのスキルを習得。</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="container" id="gallery">
+            <div class="wrapper">
+                <h2><span>G</span>ALLERY</h2>
+                <div class="contents">
+                <img class="pine" src="img/gallery_pine.png">
+                <p class="top">Aloha!</p>
+                <h3>ここまでポートフォリオをご覧いただきありがとうございます。<br>
+                    見ての通り、<span>海・空・ハワイ</span>のデザインを得意としております。<br>
+                    <br>
+                    もともと、ミラーレスを使ってカメラ撮影が趣味だったのですが、<br>
+                    最近iPhone14 proに変えたらもっぱらそれしか使わなくなってしまいました！<br>
+                    今年の6月にハワイで撮影した写真をちょこ～っとご紹介いたします。</h3>
+                    <p class="fin">Mahalo！</p>
+                </div>
+                
+                <div class="carousel">
+                    <img class="carouselImg" src="img/carousel1.jpg">
+                    <img class="carouselImg" src="img/carousel2.jpg">
+                    <img class="carouselImg" src="img/carousel3.jpg">
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-button2">
+            <h3>HP作成はお気軽にご相談ください<img src="img/hibiscuss2.png"> </h3>
+            <h4><a href="https://forms.gle/gSXjQNhboSzRumrJ7">CONTACT</a></h4>
+    </section>
+
+    <footer>
+      <div class="wrapper">
+        <h1><a href="#">Maloha Website</a></h1>
+        <nav>
+          <ul>
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="index.html#prices">Prices</a></li>
+            <li><a href="index.html#workflow">WorkFlow</a></li>
+            <li><a href="index.html#aboutme">About Me</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+      </div>
+    </footer>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="portfolio.jQuery/script.js"></script>
+      </body>
+</html>
+
